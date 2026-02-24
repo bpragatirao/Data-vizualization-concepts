@@ -25,6 +25,7 @@ venv/
 # *.zip
 # *.tar.gz
 # *.7z
+*.xlsx
 
 # Log files
 *.log
