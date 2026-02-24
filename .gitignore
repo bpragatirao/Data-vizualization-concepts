@@ -1,0 +1,36 @@
+# OS-specific files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints & local settings
+.ipynb_checkpoints/
+.virtual_documents/
+.ipynb/
+.local/
+
+# Python clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+
+# Data & Large Files
+# (This ignores all CSV, JSON, and SQL files to keep the repo light)
+# *.csv
+# *.json
+# *.sql
+# *.zip
+# *.tar.gz
+# *.7z
+
+# Log files
+*.log
+
+# Ignore large model files
+*.pkl
+*.joblib
+*.h5
+*.onnx
